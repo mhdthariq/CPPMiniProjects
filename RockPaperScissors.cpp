@@ -61,6 +61,10 @@ int main() {
     }
 
     // Final score
+    cout << "Thanks for playing! Your final score is:\n";
+    cout << "You: " << user_wins << "\n";
+    cout << "Computer: " << computer_wins << "\n";
+    cout << "Goodbye!\n";
 
     return 0;
 }
